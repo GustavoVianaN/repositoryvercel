@@ -1,7 +1,6 @@
 import About from './sections/About';
 import Hero from './sections/Hero';
 import WhyUs from './sections/WhyUs';
-//import Menu from './sections/Menu';
 import Specials from './sections/Specials';
 import Events from './sections/Events';
 import Booking from './components/Booking';
