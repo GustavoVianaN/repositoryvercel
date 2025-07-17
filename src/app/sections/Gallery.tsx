@@ -10,7 +10,7 @@ export default function Gallery() {
   const [images, setImages] = useState<any[]>([]);
 
   useEffect(() => {
-    fetch('http://localhost:3000/api/gallery')
+    fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/gallery`)
       .then(res => res.json())
       .then(data => setImages(data))
       .catch(e => console.log(e.message));

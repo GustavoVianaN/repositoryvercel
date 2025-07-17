@@ -4,7 +4,7 @@ import ChefsItem from '../components/ChefsItem';
 import SectionFadeIn from '../components/SectionFadeIn';
 
 async function getChefsData() {
-  const res = await fetch('http://localhost:3000/api/chefs');
+  const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/chefs`);
   return res.json();
 }
 
