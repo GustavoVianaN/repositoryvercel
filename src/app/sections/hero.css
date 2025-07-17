@@ -25,7 +25,7 @@
 
 @media (max-width: 992px) {
   #hero .container {
-    padding-top: 98px;
+    padding-top: 0px;
   }
 }
 
@@ -142,12 +142,13 @@
 
 @media (max-width: 768px) {
   #hero h1 {
-    font-size: 28px;
+    font-size: 38px;
     line-height: 36px;
+    margin-bottom: 10px;
   }
 
   #hero h2 {
-    font-size: 18px;
+    font-size: 20px;
     line-height: 24px;
   }
 }
