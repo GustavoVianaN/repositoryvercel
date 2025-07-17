@@ -39,7 +39,7 @@ export default function Booking() {
     return (
         <section id="book-a-table" className="book-a-table">
             <div className="container" data-aos="fade-up">
-                <SectionTitle title="Reservation" subtitle="Book a Table" />
+                <SectionTitle title="Reservation" subtitle="Falar com Especialista" />
                 <form onSubmit={handleSubmitBooking} className="booking-form" data-aos="fade-up" data-aos-delay="100">
                     <div className="row">
                         <div className="col-lg-4 col-md-6 form-group">
@@ -133,7 +133,7 @@ export default function Booking() {
                         )}
                     </div>
                     <div className="text-center">
-                        <button type="submit">Book a Table</button>
+                        <button type="submit">Falar com especialista</button>
                     </div>
                 </form>
             </div>

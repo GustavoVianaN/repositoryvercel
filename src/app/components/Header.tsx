@@ -26,7 +26,7 @@ export default function Header() {
           <a href="/">Advocacia</a>
         </h1>
         <Nav />
-        <AppBtn name='book a table'/>
+        <AppBtn name='Chat'/>
       </div>
     </header>
   );

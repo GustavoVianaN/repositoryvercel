@@ -39,7 +39,7 @@ export default function About() {
                 </li>
               </ul>
               <p>
-                Na Glauco Advocacia, priorizamos a defesa dos direitos e a tranquilidade dos nossos clientes diante das demandas trabalhistas. Conte com uma equipe dedicada para garantir a melhor estratégia jurídica.
+                Na Glauber Advocacia, priorizamos a defesa dos direitos e a tranquilidade dos nossos clientes diante das demandas trabalhistas. Conte com uma equipe dedicada para garantir a melhor estratégia jurídica.
               </p>
             </div>
           </div>
