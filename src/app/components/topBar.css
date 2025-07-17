@@ -1,0 +1,45 @@
+ #topbar {
+     height: 40px;
+     font-size: 14px;
+     transition: all 0.5s;
+     z-index: 996;
+ }
+
+ #topbar.topbar-scrolled {
+     top: -40px;
+ }
+
+ #topbar .contact-info {
+     font-style: normal;
+     color: #d9ba85;
+ }
+
+ #topbar .contact-info i span {
+     padding-left: 5px;
+     color: #fff;
+ }
+
+#topbar .languages ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+#topbar .languages ul li + li::before {
+  content: '/';
+  display: inline-block;
+  padding: 0 10px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+#topbar .languages ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+#topbar .languages ul li a:hover {
+  color: #d9ba85;
+}
