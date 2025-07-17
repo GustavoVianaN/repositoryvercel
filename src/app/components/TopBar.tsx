@@ -25,19 +25,20 @@ export default function TopBar() {
             className={`d-flex align-items-center fixed-top ${scroll > 100 ? 'topbar-scrolled' : undefined
                 }`}
         >
-            <div className="container d-flex flex-column flex-md-row justify-content-center justify-content-md-between align-items-center py-2">
-                <div className="contact-info d-flex flex-column flex-sm-row align-items-center gap-3 mb-2 mb-md-0">
-                    <i className="bi bi-phone me-2"></i>
-                    <span>(41) 99999-9999 Curitiba | PR</span>
+            <div className="container d-flex justify-content-center justify-content-md-between">
+                <div className="contact-info d-flex align-items-center">
+                    <i className="bi bi-phone me-2"></i>  {/* espaço depois do ícone */}
+                    <span>(41) 99999-9999</span>
+                    <span className="ms-2">| Curitiba, Paraná</span> {/* espaço antes da cidade */}
                 </div>
-                <div className="languages d-flex align-items-center">
-                    <ul className="list-unstyled d-flex gap-3 mb-0">
-                        <li><a href="#" className="text-decoration-none">PT</a></li>
-                        <li><a href="#" className="text-decoration-none">EN</a></li>
+
+                <div className="languages d-md-flex align-items-center ms-4">
+                    <ul>
+                        <li><a href="#">PT</a></li>
+                        <li><a href="#">EN</a></li>
                     </ul>
                 </div>
             </div>
-
         </div>
     );
 
