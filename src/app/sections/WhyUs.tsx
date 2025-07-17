@@ -4,7 +4,7 @@ import WhyUsCard from '../components/WhyUsCard';
 import SectionTitle from '../components/SectionTitle';
 import SectionFadeIn from '../components/SectionFadeIn';
 async function getWhyUsData() {
-  const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/whyus`);
+  const res = await fetch(`https://repositoryvercel.vercel.app/api/whyus`);
   return res.json();
 }
 

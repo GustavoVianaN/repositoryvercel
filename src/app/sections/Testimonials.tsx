@@ -19,7 +19,7 @@ export default function Testimonials() {
     const [slides, setSlides] = useState<any[]>([]);
 
     const getTestimonialsData = () => {
-        fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/testimonials`)
+        fetch(`https://repositoryvercel.vercel.app/api/testimonials`)
             .then(res => res.json())
             .then(data => setSlides(data))
             .catch(e => console.log(e.message));

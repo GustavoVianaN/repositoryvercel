@@ -14,7 +14,7 @@ export default function Events() {
     const [slides, setSlides] = useState<any | []>([]);
 
     const getEventsData = () => {
-        fetch(`${process.env.NEXT_PUBLIC_API_URL}api/events`)
+        fetch(`https://repositoryvercel.vercel.appapi/events`)
             .then(res => res.json())
             .then(data => setSlides(data))
             .catch(e => console.log(e.message));
