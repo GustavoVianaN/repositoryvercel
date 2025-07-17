@@ -1,28 +1,27 @@
-import About from './sections/About';
-import Hero from './sections/Hero';
-import WhyUs from './sections/WhyUs';
-import Specials from './sections/Specials';
-import Events from './sections/Events';
-import Booking from './components/Booking';
-import Testimonials from './sections/Testimonials';
-import Gallery from './sections/Gallery';
-import Chefs from './sections/Chefs';
-import Contact from './sections/Contact';
+// import About from './sections/About';
+// import Hero from './sections/Hero';
+// import WhyUs from './sections/WhyUs';
+// import Specials from './sections/Specials';
+// import Events from './sections/Events';
+// import Booking from './components/Booking';
+// import Testimonials from './sections/Testimonials';
+// import Gallery from './sections/Gallery';
+// import Chefs from './sections/Chefs';
+// import Contact from './sections/Contact';
 
 export default function Home() {
   return (
     <div>
-      <Hero />
+      {/* <Hero /> */}
       <div id="main">
-        <About />
+        {/* <About />
         <WhyUs />
-        {/* <Menu /> */}
         <Specials />
-        <Events />
+        <Events /> */}
         {/* <Booking /> */}
-        <Testimonials />
+        {/* <Testimonials />
         <Chefs />
-        <Gallery />
+        <Gallery /> */}
         {/* <Contact /> */}
       </div>
     </div>

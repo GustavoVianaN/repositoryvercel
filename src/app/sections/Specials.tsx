@@ -12,7 +12,7 @@ export default function Specials() {
     const [items, setItems] = useState<any | []>([]);
 
     const getSpecialsData = () => {
-        fetch(`https://repositoryvercel.vercel.app/api/specials`)
+        fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/specials`)
             .then(res => res.json())
             .then(data => setData(data))
             .catch(e => console.log(e.message));
