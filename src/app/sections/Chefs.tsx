@@ -1,37 +1,41 @@
-import React from 'react';
-import SectionTitle from '../components/SectionTitle';
-import ChefsItem from '../components/ChefsItem';
-import SectionFadeIn from '../components/SectionFadeIn';
+"use client";
 
-async function getChefsData() {
-  const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/chefs`);
-  return res.json();
-}
+import React, { useState, useEffect } from "react";
+import SectionTitle from "../components/SectionTitle";
+import ChefsItem from "../components/ChefsItem";
+import SectionFadeIn from "../components/SectionFadeIn";
 
-export default async function Chefs() {
-  const items = await getChefsData();
+export default function Chefs() {
+  const [items, setItems] = useState<
+    {
+      id: number;
+      name: string;
+      photo: string;
+      position: string;
+      delay: string;
+    }[]
+  >([]);
+
+  useEffect(() => {
+    fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/chefs`)
+      .then((res) => res.json())
+      .then((data) => setItems(data))
+      .catch((e) => console.error("Failed to fetch chefs:", e));
+  }, []);
 
   return (
     <section id="chefs" className="chefs">
       <div className="container" data-aos="fade-up">
-        <SectionFadeIn>        <SectionTitle title="Chefs" subtitle="Our Professionals" />
+        <SectionFadeIn>
+          <SectionTitle title="Chefs" subtitle="Our Professionals" />
           <div className="row">
-            {items && items.length > 0 &&
-              items.map(
-                (
-                  item: {
-                    id: number;
-                    name: string;
-                    photo: string;
-                    position: string;
-                    delay: string;
-                  }
-                ) => (
-                  <ChefsItem key={item.id} item={item} />
-                )
-              )
-            }
-          </div></SectionFadeIn>
+            {items.length > 0 ? (
+              items.map((item) => <ChefsItem key={item.id} item={item} />)
+            ) : (
+              <p>Loading chefs...</p>
+            )}
+          </div>
+        </SectionFadeIn>
       </div>
     </section>
   );
