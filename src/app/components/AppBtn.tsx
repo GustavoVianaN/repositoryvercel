@@ -9,8 +9,17 @@ export default function AppBtn({ name }: { name: string }) {
     useEffect(() => {
         setMounted(true);
     }, []);
+
+    const whatsappNumber = '554195731633';
+
     return (
-        <button className="app-btn" type="button" aria-label={name}>
+        <a
+            href={`https://wa.me/${whatsappNumber}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="app-btn"
+            aria-label={name}
+        >
             <span className="app-btn-text">{name}</span>
             {mounted && (
                 <FontAwesomeIcon
@@ -20,6 +29,6 @@ export default function AppBtn({ name }: { name: string }) {
                     focusable="false"
                 />
             )}
-        </button>
+        </a>
     );
 }
