@@ -111,7 +111,7 @@ export default function Footer() {
           <div className="copyright">
             &copy; Copyright{' '}
             <strong>
-              <span>Advocacia</span>
+              <span>Gustavo Viana</span>
             </strong>{' '}
             - Todos os direitos reservados
           </div>
