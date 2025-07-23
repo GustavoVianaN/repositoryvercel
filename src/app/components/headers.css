@@ -22,7 +22,6 @@
     line-height: 1;
     font-weight: 300;
     letter-spacing: 1px;
-    text-transform: uppercase;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -33,4 +32,10 @@
 
 #header .logo img {
     max-height: 40px;
+}
+
+@media (max-width: 768px) {
+  #header .logo {
+    font-size: 18px; /* ou o tamanho que você achar ideal para mobile */
+  }
 }

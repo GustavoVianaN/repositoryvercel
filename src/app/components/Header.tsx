@@ -23,10 +23,10 @@ export default function Header() {
     >
       <div className="container-fluid container-xl d-flex align-items-center justify-content-lg-between">
         <h1 className="logo me-auto me-lg-0">
-          <a href="/">Advocacia</a>
+          <a href="/">Advogado Online</a>
         </h1>
         <Nav />
-        <AppBtn name='Chat'/>
+        <AppBtn name='CLIQUE e fale gratuitamente com um advogado'/>
       </div>
     </header>
   );

@@ -18,7 +18,7 @@ export default function Footer() {
                     Bairro Centro, Cidade - Estado <br />
                     CEP 12345-678 <br />
                     <br />
-                    <strong>Telefone:</strong> +55 (11) 1234-5678 <br />
+                    <strong>Telefone:</strong> +55 41 9573-1633 <br />
                     <strong>Email:</strong> contato@advocacia.com.br <br />
                   </p>
                   <div className="social-links mt-3">

@@ -13,6 +13,7 @@ import { Playfair_Display, Geist, Geist_Mono, Anek_Latin } from "next/font/googl
 import "./globals.css";
 import BackToTop from './components/BackToTopBtn';
 import Footer from './sections/Footer';
+import WhatsappButton from './components/WhatsappButton';
 
 const playfair = Playfair_Display({
   subsets: ['latin'],
@@ -44,11 +45,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={playfair.className}>
-        <TopBar/>
+        <TopBar />
         <Header />
         {children}
-        <Footer/>
-        <BackToTop/>
+        <Footer />
+        <BackToTop />
+        <WhatsappButton />
       </body>
     </html>
   );

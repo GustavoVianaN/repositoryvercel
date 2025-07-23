@@ -9,15 +9,16 @@ export default function HeroBtn({
   target: string;
 }) {
   const handleScrollTo = (section: string) => {
-    // Aqui você pode implementar o scroll suave se quiser
     const el = document.getElementById(section);
     if (el) {
       el.scrollIntoView({ behavior: 'smooth' });
     }
   };
+  const whatsappNumber = "554195731633";
 
   return (
     <a
+      href={`https://wa.me/${whatsappNumber}`}
       onClick={() => handleScrollTo(target)}
       className={`btn-hero animated fadeInUp scrollto ${
         name.includes('book') ? 'ms-4' : undefined

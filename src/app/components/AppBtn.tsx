@@ -1,17 +1,26 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import './appBtn.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faWhatsapp } from '@fortawesome/free-brands-svg-icons/faWhatsapp';
 
 export default function AppBtn({ name }: { name: string }) {
-    const handleScrollTo = (section: string) => {
-        // go to booking a table section
-    };
-    
+    const [mounted, setMounted] = useState(false);
+
+    useEffect(() => {
+        setMounted(true);
+    }, []);
+
     return (
-        <a
-            className="app-btn scrollto d-none d-lg-flex"
-            onClick={() => handleScrollTo('book-a-table')}
-        >
-            {name}
-        </a>
+        <button className="app-btn" type="button" aria-label={name}>
+            <span className="app-btn-text">{name}</span>
+            {mounted && (
+                <FontAwesomeIcon
+                    icon={faWhatsapp as any}
+                    className="app-btn-icon"
+                    aria-hidden="true"
+                    focusable="false"
+                />
+            )}
+        </button>
     );
 }

@@ -23,7 +23,7 @@ export const menu = [
     preview: '/assets/images/menu/lobster-bisque.jpg',
     ingredients: 'Avaliação, orientação, análise de contratos, prevenção de litígios',
     category: 'starters',
-    description: `Conte com as orientações especializadas no esclarecimento de dúvidas jurídicas, análise de riscos e assessoria preventiva, garantindo segurança nas suas decisões e negócios. Na Glauber Advocacia, atuamos de forma transparente e ética para solucionar suas demandas. Oferecemos atendimento próximo e ágil, com o compromisso de sempre buscar os melhores resultados para nossos clientes.`,
+    description: `Conte com as orientações especializadas no esclarecimento de dúvidas jurídicas, análise de riscos e assessoria preventiva, garantindo segurança nas suas decisões e negócios. Na Glauber Queiroz Advocacia, atuamos de forma transparente e ética para solucionar suas demandas. Oferecemos atendimento próximo e ágil, com o compromisso de sempre buscar os melhores resultados para nossos clientes.`,
   },
   {
     id: 2,
@@ -32,7 +32,7 @@ export const menu = [
     preview: '/assets/images/menu/bread-barrel.jpg',
     ingredients: 'Elaboração de peças, acompanhamento processual, audiências',
     category: 'specialty',
-    description: `Atuamos em processos judiciais em diversas áreas do Direito, assegurando acompanhamento dedicado em todas as etapas do processo. Nossa experiência proporciona maior segurança e efetividade na defesa dos interesses de nossos clientes, sempre prezando pela ética e pelo profissionalismo. Poder contar com o suporte da Glauber Advocacia faz toda a diferença em momentos de incerteza e conflito.`,
+    description: `Atuamos em processos judiciais em diversas áreas do Direito, assegurando acompanhamento dedicado em todas as etapas do processo. Nossa experiência proporciona maior segurança e efetividade na defesa dos interesses de nossos clientes, sempre prezando pela ética e pelo profissionalismo. Poder contar com o suporte da Glauber Queiroz Advocacia faz toda a diferença em momentos de incerteza e conflito.`,
   },
   {
     id: 3,
@@ -51,7 +51,7 @@ export const menu = [
     preview: '/assets/images/menu/caesar.jpg',
     ingredients: 'Divórcio, guarda, alimentos, inventário',
     category: 'salads',
-    description: `Atuação humanizada para lidar com momentos delicados envolvendo família, como divórcios, guarda de filhos, pensão alimentícia e inventário. Buscamos resolução célere e equilibrada, oferecendo suporte emocional além da orientação jurídica. Na Glauber Advocacia, você tem tranquilidade para tomar as melhores decisões.`,
+    description: `Atuação humanizada para lidar com momentos delicados envolvendo família, como divórcios, guarda de filhos, pensão alimentícia e inventário. Buscamos resolução célere e equilibrada, oferecendo suporte emocional além da orientação jurídica. Na Glauber Queiroz Advocacia, você tem tranquilidade para tomar as melhores decisões.`,
   },
   {
     id: 5,
@@ -89,7 +89,7 @@ export const menu = [
     ingredients:
       'Defesa do consumidor, ações contra empresas, indenizações',
     category: 'salads',
-    description: `Seus direitos como consumidor protegido. Atuação em conflitos com fornecedores, revisões de contratos, cobranças indevidas e pedidos de indenização por danos. Na Glauber Advocacia, você tem defesa ativa e estratégica frente aos abusos nas relações de consumo.`,
+    description: `Seus direitos como consumidor protegido. Atuação em conflitos com fornecedores, revisões de contratos, cobranças indevidas e pedidos de indenização por danos. Na Glauber Queiroz Advocacia, você tem defesa ativa e estratégica frente aos abusos nas relações de consumo.`,
   },
   {
     id: 9,
@@ -136,17 +136,16 @@ export const specials = [
     subtitle:
       'Somos referência em soluções jurídicas eficientes e seguras',
     content:
-      'A Glauber Advocacia se destaca pela dedicação ao cliente e pela busca constante de soluções atualizadas e alinhadas à legislação, garantindo segurança em cada processo.',
+      'A Glauber Queiroz Advocacia se destaca pela dedicação ao cliente e pela busca constante de soluções atualizadas e alinhadas à legislação, garantindo segurança em cada processo.',
     active: true,
   },
   {
     id: 2,
     image: './assets/images/specials/specials-2.png',
-    title: 'Consultoria Personalizada',
-    subtitle:
-      'Nossa equipe oferece assessoria jurídica sob medida para cada cliente',
+    title: 'Proteção de Dados Pessoais',
+    subtitle: 'Garantimos conformidade com a LGPD e segurança jurídica para sua empresa',
     content:
-      'Acompanhamento contínuo e orientação estratégica são fundamentais para prevenir riscos e garantir tranquilidade em suas decisões pessoais e empresariais.',
+      'Oferecemos consultoria especializada para adequação à Lei Geral de Proteção de Dados, prevenindo sanções, fortalecendo a confiança do cliente e garantindo o uso legal e seguro das informações.',
     active: false,
   },
   {
@@ -167,7 +166,7 @@ export const specials = [
     subtitle:
       'Atendimento humanizado em momentos delicados de vida',
     content:
-      'Na Glauber Advocacia, acolhemos cada caso de família com respeito, buscando sempre resoluções equilibradas e que respeitam os interesses de todos.',
+      'Na Glauber Queiroz Advocacia, acolhemos cada caso de família com respeito, buscando sempre resoluções equilibradas e que respeitam os interesses de todos.',
     active: false,
   },
   {
@@ -188,7 +187,7 @@ export const specialsFilters = [
   },
   {
     id: 2,
-    name: 'Consultoria Preventiva',
+    name: 'Proteção de Dados',
     active: false,
   },
   {
@@ -210,48 +209,49 @@ export const specialsFilters = [
 export const events = [
   {
     id: 1,
-    image: './assets/images/events/event-birthday.jpg',
-    title: 'Palestras Jurídicas',
-    price: 189,
-    content: `Promovemos palestras e eventos de educação jurídica, abordando temas atuais do Direito e esclarecendo dúvidas da comunidade.`,
+    image: './assets/images/events/events-01.png',
+    title: 'Palestras sobre Direito do Trabalho',
+    price: 0,
+    content: `Abordamos temas essenciais da legislação trabalhista, direitos dos empregados e boas práticas para empregadores.`,
     details: [
-      'Atualização em legislação, tendências e jurisprudência.',
-      'Espaço para perguntas e orientações ao público.',
-      'Materiais de apoio fornecidos aos participantes.',
+      'Reformas trabalhistas e impactos nos contratos.',
+      'Direitos fundamentais dos trabalhadores e empregadores.',
+      'Sessão de perguntas e orientações ao público.',
     ],
-    summary: `O compromisso da Glauber Advocacia é disseminar conhecimento jurídico acessível e de qualidade para todos.`,
+    summary: `Nosso objetivo é levar conhecimento jurídico acessível e prático à comunidade e empresas.`,
   },
   {
     id: 2,
-    image: './assets/images/events/event-private.jpg',
-    title: 'Workshops Corporativos',
-    price: 290,
-    content: `Capacitamos equipes empresariais em temas jurídicos, promovendo uma cultura de prevenção e segurança para empresas.`,
+    image: './assets/images/events/events-02.jpg',
+    title: 'Workshops sobre LGPD e Proteção de Dados',
+    price: 0,
+    content: `Capacitamos empresas e colaboradores para lidar com a Lei Geral de Proteção de Dados, promovendo segurança e conformidade.`,
     details: [
-      'Planos personalizados para empresas de todos os portes.',
-      'Temas como Direito do Trabalho, Contratos e Compliance.',
-      'Instrutores experientes e materiais atualizados.',
+      'Mapeamento e tratamento de dados pessoais.',
+      'Direitos dos titulares e deveres das empresas.',
+      'Planos de adequação e boas práticas organizacionais.',
     ],
-    summary: `Sua empresa preparada para qualquer situação, com apoio da Glauber Advocacia.`,
+    summary: `Garanta conformidade com a LGPD e evite riscos legais com a orientação da Glauber Queiroz Advocacia.`,
   },
   {
     id: 3,
-    image: './assets/images/events/event-custom.jpg',
-    title: 'Treinamentos Personalizados',
-    price: 99,
-    content: `Desenvolva sua equipe ou grupo com treinamentos sob medida em áreas jurídicas de interesse.`,
+    image: './assets/images/events/events-03.png',
+    title: 'Treinamentos Jurídicos In Company',
+    price: 0,
+    content: `Treinamentos específicos para equipes que lidam com rotinas de RH, contratos e dados sensíveis, com foco prático e preventivo.`,
     details: [
-      'Temas elaborados conforme a necessidade do público.',
-      'Desenvolvimento de cases práticos e atualizações.',
-      'Instrutores qualificados e experientes em sala de aula.',
+      'Conteúdo ajustado às necessidades e setor da empresa.',
+      'Casos reais, simulações e atualizações legislativas.',
+      'Instrutores especialistas em Direito do Trabalho e LGPD.',
     ],
-    summary: `Capacite seu time com o suporte e a didática da Glauber Advocacia.`,
+    summary: `Desenvolva sua equipe com o suporte técnico e estratégico da Glauber Queiroz Advocacia.`,
   },
 ];
+
 export const testimonials = [
   {
     id: 1,
-    content: `A equipe da Glauber Advocacia foi fundamental para resolver um processo complexo, sempre com ética, transparência e profissionalismo. Recomendo!`,
+    content: `A equipe da Glauber Queiroz Advocacia foi fundamental para resolver um processo complexo, sempre com ética, transparência e profissionalismo. Recomendo!`,
     avatar: './assets/images/testimonials/testimonials-1.jpg',
     client: 'Carolina Silva',
     position: 'Empresária',
@@ -272,7 +272,7 @@ export const testimonials = [
   },
   {
     id: 4,
-    content: `Glauber Advocacia sempre esteve disponível para tirar minhas dúvidas e tranquilizar minha família durante um processo difícil. Gratidão a toda equipe!`,
+    content: `Glauber Queiroz Advocacia sempre esteve disponível para tirar minhas dúvidas e tranquilizar minha família durante um processo difícil. Gratidão a toda equipe!`,
     avatar: './assets/images/testimonials/testimonials-4.jpg',
     client: 'Marcos Klein',
     position: 'Engenheiro',
@@ -322,25 +322,25 @@ export const gallery = [
 export const chefs = [
   {
     id: 1,
-    name: 'Glauber Vasconcellos',
+    name: 'Glauber Queiroz',
     photo: './assets/images/chefs/chefs-1.jpg',
     position: 'Advogado Fundador',
     delay: '100',
   },
-  {
-    id: 2,
-    name: 'Ana Beatriz Oliveira',
-    photo: './assets/images/chefs/chefs-2.jpg',
-    position: 'Especialista em Direito Civil',
-    delay: '200',
-  },
-  {
-    id: 3,
-    name: 'Lucas Martins',
-    photo: './assets/images/chefs/chefs-3.jpg',
-    position: 'Especialista em Direito do Trabalho',
-    delay: '300',
-  },
+  // {
+  //   id: 2,
+  //   name: 'Ana Beatriz Oliveira',
+  //   photo: './assets/images/chefs/chefs-2.jpg',
+  //   position: 'Especialista em Direito Civil',
+  //   delay: '200',
+  // },
+  // {
+  //   id: 3,
+  //   name: 'Lucas Martins',
+  //   photo: './assets/images/chefs/chefs-3.jpg',
+  //   position: 'Especialista em Direito do Trabalho',
+  //   delay: '300',
+  // },
 ];
 export const navs = [
   {
@@ -397,8 +397,8 @@ export const bookings = [
     id: 1,
     details: {
       name: 'Nome Exemplo',
-      email: 'contato@Glauberadvocacia.com',
-      phone: '11999999999',
+      email: 'contato@Glauber Queirozadvocacia.com',
+      phone: '+55 41 9573-1633',
       date: '2024-2-06',
       time: '11:30',
       people: 1,

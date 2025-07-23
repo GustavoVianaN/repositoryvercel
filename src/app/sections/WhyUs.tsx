@@ -18,7 +18,7 @@ export default function WhyUs() {
     <section id="why-us" className="why-us">
       <div className="container">
         <SectionFadeIn>
-          <SectionTitle title="por que nós" subtitle="Por que escolher a Glauber Advocacia" />
+          <SectionTitle title="por que nós" subtitle="Por que escolher a Glauber Queiroz Advocacia" />
           <div className="row">
             {items.map((item: { id: number; title: string; content: string }) => (
               <WhyUsCard key={item.id} item={item} />

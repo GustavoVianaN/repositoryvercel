@@ -14,7 +14,7 @@ export default function Events() {
     const [slides, setSlides] = useState<any | []>([]);
 
     const getEventsData = () => {
-        fetch(`${process.env.NEXT_PUBLIC_API_URL}api/events`)
+        fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/events`)
             .then(res => res.json())
             .then(data => setSlides(data))
             .catch(e => console.log(e.message));
@@ -31,7 +31,6 @@ export default function Events() {
                     title="Eventos"
                     subtitle="Participe de Nossos Eventos Jurídicos"
                 />
-
                     <div data-aos="fade-up" data-aos-delay="100">
                         <Swiper
                             spaceBetween={0}

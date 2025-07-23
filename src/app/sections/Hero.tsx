@@ -26,11 +26,10 @@ export default function Hero() {
           <div className="row">
             <div className="col-lg-8">
               <h1>
-                Bem-vindo <span>Glauber Advocacia</span>
+                Bem-vindo <span>Glauber Queiroz</span>
               </h1>
               <h2>Oferecendo soluções jurídicas de confiança!</h2>
               <div className="btns">
-                <HeroBtn name="Nossos Serviços" target="servicos" />
                 <HeroBtn name="Agende uma Consulta" target="contato" />
               </div>
             </div>
@@ -40,8 +39,9 @@ export default function Hero() {
               data-aos-delay="200"
             >
               <a
-                href="https://www.youtube.com/watch?v=F3zw1Gvn4Mk"
+                href="assets/movies/movie-1.mp4"
                 className="glightbox play-btn"
+                data-type="video"
               ></a>
             </div>
           </div>

@@ -17,10 +17,10 @@ export default function Home() {
         <About />
         <WhyUs />
         <Specials />
+        <Chefs />
         <Events />
         {/* <Booking /> */}
         <Testimonials />
-        <Chefs />
         <Gallery />
         {/* <Contact /> */}
       </div>

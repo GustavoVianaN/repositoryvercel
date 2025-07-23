@@ -27,7 +27,7 @@ export default function Chefs() {
     <section id="chefs" className="chefs">
       <div className="container" data-aos="fade-up">
         <SectionFadeIn>
-          <SectionTitle title="Chefs" subtitle="Our Professionals" />
+          <SectionTitle title="Advogados" subtitle="Nossos profissionais" />
           <div className="row">
             {items.length > 0 ? (
               items.map((item) => <ChefsItem key={item.id} item={item} />)
