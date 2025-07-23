@@ -14,9 +14,9 @@ export default function Home() {
     <div>
       <Hero />
       <div id="main">
+        <Chefs />
         <About />
         <WhyUs />
-        <Chefs />
         <Specials />
         <Events />
         {/* <Booking /> */}
