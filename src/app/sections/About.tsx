@@ -22,25 +22,22 @@ export default function About() {
             </div>
             <div className="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
               <h3>
-                Compromisso, ética e excelência na defesa dos direitos trabalhistas.
+                Compromisso, ética e resultado na defesa trabalhista.
               </h3>
               <p className="fst-italic">
-                Nossa equipe oferece assessoria especializada em Direito do Trabalho, focada na proteção dos direitos dos trabalhadores e empregadores.
+                Defendemos os direitos de trabalhadores e empresas com atuação prática e especializada.
               </p>
               <ul>
                 <li>
-                  <i className="bi bi-check-circle"></i> Atendimento personalizado e sigiloso para questões trabalhistas.
+                  <i className="bi bi-check-circle"></i> Atendimento direto, claro e sigiloso.
                 </li>
                 <li>
-                  <i className="bi bi-check-circle"></i> Atuação em reclamações trabalhistas, acordos coletivos e consultoria preventiva.
+                  <i className="bi bi-check-circle"></i> Ação rápida em processos, acordos e consultoria preventiva.
                 </li>
                 <li>
-                  <i className="bi bi-check-circle"></i> Transparência, ética e compromisso com a solução eficiente de conflitos laborais.
+                  <i className="bi bi-check-circle"></i> Especialistas em proteção de dados: atuação conforme a LGPD.
                 </li>
               </ul>
-              <p>
-                Na Glauber Queiroz Advocacia, priorizamos a defesa dos direitos e a tranquilidade dos nossos clientes diante das demandas trabalhistas. Conte com uma equipe dedicada para garantir a melhor estratégia jurídica.
-              </p>
             </div>
           </div>
         </SectionFadeIn>

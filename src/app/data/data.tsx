@@ -322,7 +322,7 @@ export const gallery = [
 export const chefs = [
   {
     id: 1,
-    name: 'Glauber Queiroz',
+    name: 'DR.Glauber Queiroz',
     photo: './assets/images/chefs/chefs-1.jpg',
     position: 'Advogado Fundador',
     delay: '100',
