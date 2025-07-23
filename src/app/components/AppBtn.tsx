@@ -9,7 +9,6 @@ export default function AppBtn({ name }: { name: string }) {
     useEffect(() => {
         setMounted(true);
     }, []);
-
     return (
         <button className="app-btn" type="button" aria-label={name}>
             <span className="app-btn-text">{name}</span>
