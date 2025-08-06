@@ -1,7 +1,6 @@
 'use client';
 
 import React, { useEffect } from 'react';
-// REMOVA import GLightbox from 'glightbox';
 import './hero.css';
 import HeroBtn from '../components/HeroBtn';
 import SectionFadeIn from '../components/SectionFadeIn';
@@ -24,15 +23,26 @@ export default function Hero() {
       >
         <SectionFadeIn duration={3200}>
           <div className="row">
-            <div className="col-lg-8">
-              <h1>
-                Bem-vindo <span>Glauber Queiroz</span>
-              </h1>
+            <div className="col-lg-8 d-flex flex-column justify-content-center">
+              <div className="mb-3">
+                <img
+                  src="/assets/images/logo_glauber.png"
+                  alt="Logo Glauber"
+                  className="img-fluid"
+                  style={{
+                    width: '100%',
+                    maxWidth: '440px',
+                    height: 'auto',
+                    marginTop:'5%',
+                  }}
+                />
+              </div>
               <h2>Oferecendo soluções jurídicas de confiança!</h2>
-              <div className="btns">
+              <div className="btns mt-3">
                 <HeroBtn name="Agende uma Consulta" target="contato" />
               </div>
             </div>
+
             <div
               className="col-lg-4 d-flex align-items-center justify-content-center position-relative"
               data-aos="zoom-in"

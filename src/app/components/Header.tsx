@@ -26,7 +26,7 @@ export default function Header() {
           <a href="/">Advogado Online</a>
         </h1>
         <Nav />
-        <AppBtn name='CLIQUE e fale gratuitamente com um advogado'/>
+        <AppBtn name='Fale com um advogado'/>
       </div>
     </header>
   );
