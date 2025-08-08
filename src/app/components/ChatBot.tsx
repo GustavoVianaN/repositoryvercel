@@ -17,7 +17,7 @@ export default function ChatBot() {
         onClick={toggleChat}
         aria-label="Abrir chat com advogado"
       >
-        <span className="chatbot-text">Atendimento Online...</span>
+        <span className="chatbot-text">Atendimento Online</span>
         <img
           src="/assets/images/icon_chat.png" // caminho da imagem
           alt="Atendente"

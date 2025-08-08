@@ -18,9 +18,9 @@
   display: flex;
   align-items: center;
   gap: 10px;
-  padding: 10px 16px;
+  padding: 0 0 0 10px;            /* menos padding para aproximar a borda da imagem */
   border-radius: 40px;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(197, 197, 197, 0.8);
   border: none;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
   cursor: pointer;
@@ -32,19 +32,17 @@
   animation: bounce 2.5s infinite ease-in-out;
 }
 
+
 .chatbot-button:hover {
   transform: scale(1.05);
 }
 
-/* Imagem redonda com borda laranja e sombra suave */
+
 .chatbot-icon {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  object-fit: cover;
-  box-shadow: 0 0 8px 2px rgba(128, 128, 128, 0.3);
   border: 2px solid rgb(170, 117, 68);
-  display: block;
 }
 
 /* Texto ao lado da imagem */
