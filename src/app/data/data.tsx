@@ -254,7 +254,7 @@ export const testimonials = [
     content: `A equipe da Glauber Queiroz Advocacia foi fundamental para resolver um processo complexo, sempre com ética, transparência e profissionalismo. Recomendo!`,
     avatar: './assets/images/testimonials/testimonials-1.jpg',
     client: 'Carolina Silva',
-    position: 'Empresária',
+    position: 'Engenheira',
   },
   {
     id: 2,
@@ -268,14 +268,14 @@ export const testimonials = [
     content: `Profissionais atentos, atendimento claro e respeitoso. Meu processo foi solucionado e fiquei muito satisfeito com o resultado.`,
     avatar: './assets/images/testimonials/testimonials-3.jpg',
     client: 'Ana Santos',
-    position: 'Médica',
+    position: 'Autônoma',
   },
   {
     id: 4,
     content: `Glauber Queiroz Advocacia sempre esteve disponível para tirar minhas dúvidas e tranquilizar minha família durante um processo difícil. Gratidão a toda equipe!`,
     avatar: './assets/images/testimonials/testimonials-4.jpg',
     client: 'Marcos Klein',
-    position: 'Engenheiro',
+    position: 'Autônomo',
   },
   {
     id: 5,
@@ -398,7 +398,7 @@ export const bookings = [
     details: {
       name: 'Nome Exemplo',
       email: 'contato@Glauber Queirozadvocacia.com',
-      phone: '+55 41 9573-1633',
+      phone: '+55 41 99573-1633',
       date: '2024-2-06',
       time: '11:30',
       people: 1,

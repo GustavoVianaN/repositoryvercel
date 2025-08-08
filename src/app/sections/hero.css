@@ -117,6 +117,23 @@
   border-radius: 0;
 }
 
+.hero-img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  margin-top: 5%;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+  .hero-img {
+    max-width: 250px;
+    margin-top: 10%;
+  }
+}
+
+
 @media (min-width: 1024px) {
   #hero {
     background-attachment: fixed;
@@ -148,7 +165,7 @@
   }
 
   #hero h2 {
-    font-size: 20px;
+    font-size: 15px;
     line-height: 24px;
   }
 }

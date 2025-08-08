@@ -4,7 +4,7 @@
 }
 
 .testimonials .testimonial-item .testimonial-img {
-  width: 90px;
+  width: 0px; /* VOLTAR NO 40 QUANDO FOR INCLUIR AS FOTOS */
   border-radius: 50%;
   margin: -40px 0 40px;
   position: relative;
@@ -15,7 +15,7 @@
 .testimonials .testimonial-item h3 {
   font-size: 18px;
   font-weight: bold;
-  margin: 10px 0 5px 45px;
+  margin: 10px 0 5px 0px; /*   margin: 10px 0 5px 45px;  QUANDO FOR INCLUIR AS FOTOS  */
   color: white;
 }
 

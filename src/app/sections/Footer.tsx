@@ -14,12 +14,12 @@ export default function Footer() {
                 <div className="footer-info">
                   <h3>Advocacia</h3>
                   <p>
-                    Rua Exemplo, 100 <br />
-                    Bairro Centro, Cidade - Estado <br />
-                    CEP 12345-678 <br />
+                    R. Mal. Deodoro, 760<br />
+                    Centro, Curitiba<br />
+                    CEP 80010-010 <br />
                     <br />
-                    <strong>Telefone:</strong> +55 41 9573-1633 <br />
-                    <strong>Email:</strong> contato@advocacia.com.br <br />
+                    <strong>Telefone:</strong> +55 41 99573-1633 <br />
+                    {/* <strong>Email:</strong> contato@advocacia.com.br <br /> */}
                   </p>
                   <div className="social-links mt-3">
                     <a href="#" className="twitter">

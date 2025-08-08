@@ -14,6 +14,7 @@ import "./globals.css";
 import BackToTop from './components/BackToTopBtn';
 import Footer from './sections/Footer';
 import WhatsappButton from './components/WhatsappButton';
+import ChatBot from './components/ChatBot';
 
 const playfair = Playfair_Display({
   subsets: ['latin'],
@@ -50,7 +51,9 @@ export default function RootLayout({
         {children}
         <Footer />
         <BackToTop />
-        <WhatsappButton />
+        <ChatBot />
+
+        {/* <WhatsappButton /> */}
       </body>
     </html>
   );

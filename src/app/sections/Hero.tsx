@@ -28,13 +28,7 @@ export default function Hero() {
                 <img
                   src="/assets/images/logo_glauber.png"
                   alt="Logo Glauber"
-                  className="img-fluid"
-                  style={{
-                    width: '100%',
-                    maxWidth: '440px',
-                    height: 'auto',
-                    marginTop:'5%',
-                  }}
+                  className="hero-img"
                 />
               </div>
               <h2>Oferecendo soluções jurídicas de confiança!</h2>
